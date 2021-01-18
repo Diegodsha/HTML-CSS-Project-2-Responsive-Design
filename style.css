@@ -1,0 +1,746 @@
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  .header-img a {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .f-links-text a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .card-mid a {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-left: 60px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .card-base a {
+    padding-top: 16px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  /*.tnm-logo {
+    float: left;
+  }*/
+  
+  .mobile-nav {
+    top: 0;
+    height: 50px;
+    width: 100%
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .right-icons {
+    height: 50px;
+    width: 760px;
+    border: 1 px solid black;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+  
+  .mag {
+    margin-top: -5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 260px;
+    border: 1px solid #aaa;
+  }
+  
+  #menu {
+    background-color: white;
+    margin-left: 1px;
+    margin-top: -6px;
+    width: 50px;
+    height: 50px;
+    
+    border: 1px solid #aaa;
+  }
+  
+  /* text */
+  
+  .internal-text1 {
+    font: sans-serif;
+    color: white;
+    margin-left: 15px;
+    line-height: 0.8;
+  }
+  
+  .internal-text2 {
+    color: white;
+    margin-left: 15px;
+    line-height: 0.8;
+  }
+  
+  .internal-text3 {
+    color: white;
+    margin-left: 15px;
+    line-height: 0.8;
+  }
+  
+  .header-img p {
+    font-size: 15px;
+  }
+  
+  #headline1 {
+    font-size: 20px;
+  }
+  
+  /*#headline2 a {
+    color: red;
+    font-size: 20px;
+  }*/
+  
+  #headline3 {
+    font-size: 20px;
+  }
+  
+  .top-txt1 {
+    padding-top: 50px;
+  }
+  
+  .top-txt2 {
+    padding-top: 60px;
+  }
+  
+  .top-txt3 {
+    padding-top: 80px;
+  }
+  
+  .top-txt4 {
+    padding-top: 195px;
+  }
+  
+  .string-elems {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .latest-news h1 {
+    color: #f42;
+    font-size: 30px;
+  }
+  
+  .latest-funding h1 {
+    color: #f42;
+    font-size: 30px;
+  }
+  
+  .middle-section h1 {
+    color: #f42;
+    font-size: 30px;
+  }
+  
+  .small-img-caption {
+    color: #f42;
+    font-size: 15px;
+  }
+  
+  .last-section h1 {
+    color: #f42;
+    font-size: 30px;
+  }
+  
+  ul {
+    color: #555;
+  }
+  
+  .old-price {
+    color: #aaa;
+    text-decoration: line-through;
+  }
+  
+  /* background images */
+  
+  .img-1 {
+    margin-top: 70px;
+    width: 470px;
+    height: 170px;
+    background-image: url("asset/in-front-of-car.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+  }
+  
+  .img-2 {
+    width: 470px;
+    height: 170px;
+    background-image: url("asset/home-security-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+  }
+  
+  .img-3 {
+    width: 470px;
+    height: 170px;
+    background-image: url("asset/christmas-tree.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+  }
+  
+  /* middle section and its images */
+  
+  .middle-child {
+    width: 450px;
+    height: 325px;
+  }
+  
+  #hard-fork-fig {
+    background-image: url("asset/jack-dorsey-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #apps-fig {
+    background-image: url("asset/snapchat-ripping-off.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #gear-fig {
+    background-image: url("asset/periscope-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #tech-fig {
+    background-image: url("asset/maserati-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #creative-fig {
+    background-image: url("asset/graphic-design-apps.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #podium-fig {
+    background-image: url("asset/google-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #insights-fig {
+    background-image: url("asset/rolls-of-cash-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #launch-fig {
+    background-image: url("asset/hummer-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #distract-fig {
+    background-image: url("asset/in-front-of-car.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .thumbnail {
+    float: right;
+  }
+  
+  /* footer icons and logos */
+  
+  .round-icons {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(44, 43, 43);
+  }
+  
+  /* Image modifiers */
+  
+  header {
+    margin-bottom: 150px;
+  }
+  
+  main {
+    margin-bottom: 170px;
+  }
+  
+  .latest {
+    margin-right: 15px;
+  }
+  
+  .latest img {
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .last-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .latest :nth-child(2) {
+    margin-left: 10px;
+  }
+  
+  .latest-news {
+    margin-bottom: 300px;
+  }
+  
+  .latest-fund {
+    margin-bottom: 20px;
+  }
+  
+  .latest-fund-child {
+    width: 448px;
+    margin-right: 15px;
+  }
+  
+  .orange-bckgrnd {
+    background: #f42;
+    height: 40px;
+    width: 448px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .orange-bckgrnd img {
+    margin-top: 10px;
+    margin-bottom: -30px;
+    margin-left: 10px;
+  }
+  
+  .pink-bckgrnd {
+    background: rgba(255, 68, 34, 0.08);
+    height: 60px;
+    width: 448px;
+    line-height: 0.1;
+  }
+  
+  .pink-bckgrnd h3 {
+    margin-left: 85px;
+  }
+  
+  .pink-bckgrnd p {
+    color: gray;
+    font-size: 12px;
+    margin-left: 85px;
+  }
+  
+  li {
+    font-size: 13px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .card-mid {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #f42;
+    line-height: 0.1;
+  }
+  
+  .card-base {
+    margin-bottom: 35px;
+  }
+  
+  .fine-txt {
+    color: #aaa;
+  }
+  
+  .middle-sec {
+    width: 450px;
+    margin-right: 15px;
+    margin-bottom: 60px;
+  }
+  
+  .middle-sec h1 {
+    margin-bottom: 15px;
+  }
+  
+  .pink-bckgrnd2 {
+    background: rgba(255, 68, 34, 0.08);
+    height: 96px;
+    width: 448px;
+  }
+  
+  /* footer section */
+  
+  .footer-top {
+    height: 160px;
+    background-color: rgb(32, 32, 32);
+  }
+  
+  .f-links-icons {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .f-links-icons a {
+    margin-left: 10px;
+  }
+  
+  .f-links-text {
+    padding-top: 20px;
+    color: #aaa;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-bottom {
+    height: 120px;
+    background-color: black;
+  }
+  
+  .footer-bottom p {
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  .frst-line {
+    height: 35px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .string-madein {
+    height: 30px;
+    text-align: center;
+  }
+  
+  #tnm-logo2 {
+    margin-bottom: -20px;
+  }
+  
+  .last-line {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+  }
+  
+  
+  @media only screen and (max-width: 760px) {
+    .tblt-dsk-nav {
+      display: none;
+    }
+  
+    .second-nav {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 760px) {
+    .mobile-nav {
+      display: none;
+    }
+  
+    .tblt-hidelink2 {
+      display: none;
+    }
+  
+    .tblt-dsk-nav {
+      height: 80px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .initial-logo {
+      position: fixed;
+    }
+  
+    .right-navbars {
+     /* width: 100%;*/
+      height: 80px;
+      background-color: red;
+     /* display: flex;
+      flex-direction: column;
+     
+    }
+  
+    
+    .first-nav {
+      height: 30px;
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: black;
+      top: 0;
+    }
+  
+    .first-nav a {
+      color: rgb(141, 141, 132);
+      font-size: 15px;
+      text-align: center;
+      margin: 5px;
+      padding-top: 5px;
+      justify-content: flex-end;
+    }
+  
+    #first {
+      color: white;
+      margin-left: 130px;
+    }
+  
+    #about {
+      margin-left: 90px;
+    }
+    
+    .second-nav {
+      height: 80px;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid gray;
+      position: fixed;
+      background-color: white;
+      z-index: 999;
+    }
+  
+    .second-nav a {
+      color: rgb(141, 141, 132);
+      font-size: 13px;
+      padding-top: 40px;
+      margin: 5px;
+    }
+  
+    #latest {
+      margin-left: 130px;
+    }
+  
+    .magi {
+      margin-left: 170px;
+      justify-content: flex-end;
+      margin-top: 30px;
+      border: 1px solid #aaa;*/
+    }
+  
+    .img-1 {
+      width: 480px;
+      height: 330px;
+      background-size: auto;
+      grid-area: first;
+    }
+  
+    .img-2 {
+      width: 240px;
+      height: 160px;
+      background-size: auto;
+      grid-area: second;
+    }
+  
+    .img-3 {
+      width: 240px;
+      height: 160px;
+      background-size: auto;
+      grid-area: third;
+    }
+  
+    .first-section {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 485px 242px;
+      grid-template-rows: 167px 167px;
+      grid-template-areas:
+        "first second"
+        "first third";
+    }
+  
+    .top-txt1 {
+      padding-top: 200px;
+    }
+  
+    .top-txt2 {
+      padding-top: 20px;
+    }
+  
+    .top-txt3 {
+      padding-top: 40px;
+    }
+  
+    .latest {
+      width: 248px;
+    }
+  
+    .latest img {
+      display: block;
+      height: 122px;
+      width: 248px;
+    }
+  
+    .both-latest {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .latest-fund {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .latest-fund-child {
+      width: 300px;
+    }
+  
+    .orange-bckgrnd {
+      width: 300px;
+    }
+  
+    .pink-bckgrnd {
+      width: 300px;
+    }
+  
+    #fund-child4 {
+      display: none;
+    }
+  
+    .middle-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .footer-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .string-madein {
+      margin-top: 20px;
+      margin-left: 5px;
+    }
+  
+    .last-line {
+      margin-top: 20px;
+      margin-left: 5px;
+    }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .tblt-hidelink2 {
+      display: block;
+    }
+  
+    #about {
+      margin-left: 400px;
+    }
+  
+    .magi {
+      margin-left: 483px;
+    }
+  
+    .img-1 {
+      width: 770px;
+      height: 376px;
+      grid-area: first;
+      background-size: auto;
+    }
+  
+    .img-2 {
+      width: 450px;
+      height: 183px;
+      grid-area: second;
+      background-size: auto;
+    }
+  
+    .img-3 {
+      width: 450px;
+      height: 183px;
+      grid-area: third;
+      background-size: auto;
+    }
+  
+    .first-section {
+      display: grid;
+      grid-template-columns: 778px 402px;
+      grid-template-rows: 192px 192px;
+      grid-template-areas:
+        "first second"
+        "first third";
+    }
+  
+    .top-txt1 {
+      padding-top: 250px;
+    }
+  
+    .top-txt2 {
+      padding-top: 60px;
+    }
+  
+    .top-txt3 {
+      padding-top: 85px;
+    }
+  
+    .latest {
+      margin-right: 20px;
+    }
+  
+    .pink-bckgrnd2 {
+      width: 350px;
+    }
+  
+    .latest-fund {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .latest-fund-child {
+      width: 240px;
+      margin-right: 20px;
+    }
+  
+    .orange-bckgrnd {
+      width: 240px;
+    }
+  
+    .pink-bckgrnd {
+      width: 240px;
+    }
+  
+    #fund-child4 {
+      display: block;
+    }
+  
+    .middle-child {
+      width: 350px;
+      height: 270px;
+      background-size: contain;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .middle-sec {
+      margin-right: 20px;
+      width: 350px;
+    }
+  
+    .middle-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
