@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
   }
@@ -30,28 +34,26 @@ a {
     color: gray;
   }
   
-  /*.tnm-logo {
-    float: left;
-  }*/
-  
   .mobile-nav {
     top: 0;
     height: 50px;
-    width: 100%
+    width: 100%;
     background-color: white;
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  
   }
   
   .right-icons {
     height: 50px;
-    width: 760px;
+    /* width: 760px; */
     border: 1 px solid black;
     display: flex;
     background-color: white;
     flex-direction: row;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
   
   .mag {
@@ -68,8 +70,8 @@ a {
     margin-top: -6px;
     width: 50px;
     height: 50px;
-    
     border: 1px solid #aaa;
+    color: #f42;
   }
   
   /* text */
@@ -168,30 +170,31 @@ a {
   /* background images */
   
   .img-1 {
-    margin-top: 70px;
-    width: 470px;
+    margin-top: 0px;
+    width: 100%;
     height: 170px;
-    background-image: url("asset/in-front-of-car.jpg");
+    background-image: url("Assets-2/covid-19.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     border: 1px solid black;
+
   }
   
   .img-2 {
-    width: 470px;
+    width: 100%;
     height: 170px;
-    background-image: url("asset/home-security-2.jpg");
+    background-image: url("Assets-2/ces-gadgets.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     border: 1px solid black;
   }
   
   .img-3 {
-    width: 470px;
+    width: 100%;
     height: 170px;
-    background-image: url("asset/christmas-tree.jpg");
+    background-image: url("Assets-2/rolls-royce.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     border: 1px solid black;
   }
   
@@ -203,55 +206,55 @@ a {
   }
   
   #hard-fork-fig {
-    background-image: url("asset/jack-dorsey-2.jpg");
+    background-image: url("Assets-2/trump.jpg");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #apps-fig {
-    background-image: url("asset/snapchat-ripping-off.jpg");
+    background-image: url("Assets-2/androd.webp");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #gear-fig {
-    background-image: url("asset/periscope-2.jpg");
+    background-image: url("Assets-2/manage-screen.jpg");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #tech-fig {
-    background-image: url("asset/maserati-2.jpg");
+    background-image: url("Assets-2/wing-mirrors.jpeg");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #creative-fig {
-    background-image: url("asset/graphic-design-apps.jpg");
+    background-image: url("Assets-2/global-crisis.webp");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #podium-fig {
-    background-image: url("asset/google-2.jpg");
+    background-image: url("Assets-2/open-source.webp");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #insights-fig {
-    background-image: url("asset/rolls-of-cash-2.jpg");
+    background-image: url("Assets-2/design-app-ui-startup-gq-480x270.webp");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #launch-fig {
-    background-image: url("asset/hummer-2.jpg");
+    background-image: url("Assets-2/toyota.jpg");
     background-repeat: no-repeat;
     background-size: auto;
   }
   
   #distract-fig {
-    background-image: url("asset/in-front-of-car.jpg");
+    background-image: url("Assets-2/stellar-games.jpg");
     background-repeat: no-repeat;
     background-size: auto;
   }
@@ -464,7 +467,6 @@ a {
   
     .tblt-dsk-nav {
       height: 80px;
-      width: 100%;
       display: flex;
       flex-direction: row;
     }
@@ -474,10 +476,10 @@ a {
     }
   
     .right-navbars {
-     /* width: 100%;*/
+     width: 100%;
       height: 80px;
       background-color: red;
-     /* display: flex;
+      display: flex;
       flex-direction: column;
      
     }
@@ -518,7 +520,11 @@ a {
       border-bottom: 1px solid gray;
       position: fixed;
       background-color: white;
-      z-index: 999;
+      /* z-index: 999; */
+    }
+
+    .tnm-logo {
+      float: left;
     }
   
     .second-nav a {
