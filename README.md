@@ -18,7 +18,7 @@ Also we worked with media queries to make it RESPONSIVE
 
 ## Live Demo
 
-[Live Demo Link](...)
+[Live Demo Link](https://diegodsha.github.io/HTML-CSS-Project-2-Responsive-Design/)
 
 ## Authors
 
