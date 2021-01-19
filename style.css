@@ -23,9 +23,13 @@ a {
   .card-mid a {
     padding-top: 19px;
     padding-bottom: 19px;
-    margin-left: 60px;
+    margin-left: 10px;
     font-size: 14px;
     color: gray;
+  }
+
+  .card-mid img {
+    margin-left: 15px;
   }
   
   .card-base a {
@@ -48,12 +52,10 @@ a {
   
   .right-icons {
     height: 50px;
-    /* width: 760px; */
     border: 1 px solid black;
     display: flex;
     background-color: white;
     flex-direction: row;
-    /* padding-top: 10px; */
   }
   
   .mag {
@@ -76,11 +78,11 @@ a {
   
   /* text */
   
-.internal-text{
-  margin: 0;
-  padding-left: 16px;
-  padding-top: 15px;
-}
+  .internal-text{
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 15px;
+  }
 
   .internal-text1 {
     font: sans-serif;
@@ -130,9 +132,9 @@ a {
     padding-top: 80px;
   }
   
-  /* .top-txt4 {
-    padding-top: 195px;
-  } */
+  .top-txt4 {
+    padding-top: 180px;
+  }
   
   .string-elems {
     display: flex;
@@ -268,16 +270,7 @@ a {
   .thumbnail {
     float: right;
   }
-  
-  /* footer icons and logos */
-  
-  .round-icons {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 1px solid rgb(44, 43, 43);
-  }
-  
+   
   /* Image modifiers */
   
   header {
@@ -337,7 +330,7 @@ a {
   
   .pink-bckgrnd {
     background: rgba(255, 68, 34, 0.08);
-    height: 60px;
+    height: 45px;
     width: 100%;
     line-height: 0.1;
   }
@@ -359,10 +352,13 @@ a {
   }
   
   .card-mid {
-    display: flex;
-    flex-direction: column;
     border-bottom: 1px solid #f42;
-    line-height: 0.1;
+    height: 75px;
+    line-height: 1.8;
+  }
+
+  .card-mid-pricetag {
+    padding-top: 10px;
   }
   
   .card-base {
@@ -370,6 +366,7 @@ a {
   }
   
   .fine-txt {
+    margin-left: 5px;
     color: #aaa;
   }
   
@@ -379,9 +376,10 @@ a {
     margin-bottom: 60px;
   }
   
-.middle-sec ul{
-  line-height: 20px
-}
+  .middle-sec ul {
+    padding-left: 20px;
+    line-height: 20px
+  }
 
   .middle-sec h1 {
     margin-bottom: 15px;
@@ -412,8 +410,8 @@ a {
   }
   
 .fab,
-.fas{
-  display: flex;
+.fas {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -424,7 +422,7 @@ a {
 }
 
 .fab:hover,
-.fas:hover{
+.fas:hover {
   background-color: rgb(20, 20, 20);
 }
 
@@ -665,7 +663,7 @@ a {
       margin-top: 20px;
       margin-left: 5px;
     }
-  
+  }
   
   @media only screen and (min-width: 1200px) {
 
