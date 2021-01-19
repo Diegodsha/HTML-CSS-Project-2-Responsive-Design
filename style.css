@@ -466,28 +466,14 @@ a {
     }
   
     .tblt-dsk-nav {
+      width: 100%;
       height: 80px;
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .initial-logo {
+      top: 0;
       position: fixed;
     }
   
-    .right-navbars {
-     width: 100%;
-      height: 80px;
-      background-color: red;
-      display: flex;
-      flex-direction: column;
-     
-    }
-  
-    
     .first-nav {
       height: 30px;
-      width:100%;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -510,38 +496,42 @@ a {
     }
   
     #about {
-      margin-left: 90px;
+      margin-left: auto;
+    }
+
+    #last {
+      margin-right: 25px
     }
     
     .second-nav {
-      height: 80px;
+      width: 100%;
+      height: 50px;
       display: flex;
       flex-direction: row;
       border-bottom: 1px solid gray;
-      position: fixed;
       background-color: white;
-      /* z-index: 999; */
+      z-index: 999;
     }
 
     .tnm-logo {
-      float: left;
+      height: 50px;
     }
   
     .second-nav a {
       color: rgb(141, 141, 132);
       font-size: 13px;
-      padding-top: 40px;
+      padding-top: 10px;
       margin: 5px;
     }
   
     #latest {
-      margin-left: 130px;
+      margin-left: 20px;
     }
   
     .magi {
-      margin-left: 170px;
+      margin-left: auto;
+      margin-right: 10px;
       justify-content: flex-end;
-      margin-top: 30px;
       border: 1px solid #aaa;*/
     }
   
@@ -647,16 +637,21 @@ a {
   
   
   @media only screen and (min-width: 1200px) {
+
+    #first {
+      margin-left: 23px;
+    }
+
+    .tnm-logo {
+      display: none;
+    }
+
     .tblt-hidelink2 {
       display: block;
     }
-  
-    #about {
-      margin-left: 400px;
-    }
-  
-    .magi {
-      margin-left: 483px;
+
+    .first-nav a {
+      margin: 5px;
     }
   
     .img-1 {
