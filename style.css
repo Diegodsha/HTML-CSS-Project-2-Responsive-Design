@@ -76,6 +76,12 @@ a {
   
   /* text */
   
+.internal-text{
+  margin: 0;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
   .internal-text1 {
     font: sans-serif;
     color: white;
@@ -124,9 +130,9 @@ a {
     padding-top: 80px;
   }
   
-  .top-txt4 {
+  /* .top-txt4 {
     padding-top: 195px;
-  }
+  } */
   
   .string-elems {
     display: flex;
@@ -208,55 +214,55 @@ a {
   #hard-fork-fig {
     background-image: url("Assets-2/trump.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #apps-fig {
     background-image: url("Assets-2/androd.webp");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #gear-fig {
     background-image: url("Assets-2/manage-screen.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #tech-fig {
     background-image: url("Assets-2/wing-mirrors.jpeg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #creative-fig {
     background-image: url("Assets-2/global-crisis.webp");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #podium-fig {
     background-image: url("Assets-2/open-source.webp");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #insights-fig {
     background-image: url("Assets-2/design-app-ui-startup-gq-480x270.webp");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #launch-fig {
     background-image: url("Assets-2/toyota.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   #distract-fig {
     background-image: url("Assets-2/stellar-games.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   
   .thumbnail {
@@ -303,7 +309,7 @@ a {
   }
   
   .latest-news {
-    margin-bottom: 300px;
+    margin-bottom: 70px;
   }
   
   .latest-fund {
@@ -311,14 +317,14 @@ a {
   }
   
   .latest-fund-child {
-    width: 448px;
+    width: 100%;
     margin-right: 15px;
   }
   
   .orange-bckgrnd {
     background: #f42;
     height: 40px;
-    width: 448px;
+    width: 100%;
     display: flex;
     flex-direction: row;
   }
@@ -332,7 +338,7 @@ a {
   .pink-bckgrnd {
     background: rgba(255, 68, 34, 0.08);
     height: 60px;
-    width: 448px;
+    width: 100%;
     line-height: 0.1;
   }
   
@@ -373,6 +379,10 @@ a {
     margin-bottom: 60px;
   }
   
+.middle-sec ul{
+  line-height: 20px
+}
+
   .middle-sec h1 {
     margin-bottom: 15px;
   }
@@ -401,6 +411,27 @@ a {
     margin-left: 10px;
   }
   
+.fab,
+.fas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: rgb(49, 48, 48);
+  border-radius: 50%;
+}
+
+.fab:hover,
+.fas:hover{
+  background-color: rgb(20, 20, 20);
+}
+
+.fa-wifi{
+  transform: rotate(45deg);
+}
+
   .f-links-text {
     padding-top: 20px;
     color: #aaa;
@@ -438,11 +469,11 @@ a {
   }
   
   .last-line {
-    height: 30px;
+    height: 41px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid white;
+    align-items: center;
   }
   
   
@@ -536,30 +567,30 @@ a {
     }
   
     .img-1 {
-      width: 480px;
-      height: 330px;
+      width: 100%;
+      height: auto;
       background-size: auto;
       grid-area: first;
     }
   
     .img-2 {
-      width: 240px;
-      height: 160px;
+      width: 100%;
+      height: auto;
       background-size: auto;
       grid-area: second;
     }
   
     .img-3 {
-      width: 240px;
-      height: 160px;
+      width: 100%;
+      height: auto;
       background-size: auto;
       grid-area: third;
     }
   
     .first-section {
-      margin-top: 10px;
+      margin-top: 93px;
       display: grid;
-      grid-template-columns: 485px 242px;
+      grid-template-columns: 60% 40%;
       grid-template-rows: 167px 167px;
       grid-template-areas:
         "first second"
