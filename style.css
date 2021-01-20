@@ -77,12 +77,6 @@ a:hover {
 
 /* text */
 
-.internal-text {
-  margin: 0;
-  padding-left: 16px;
-  padding-top: 15px;
-}
-
 .internal-text1 {
   font: sans-serif;
   color: white;
@@ -99,6 +93,12 @@ a:hover {
 }
 
 .internal-text3 {
+  margin: 0;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.internal-text4 {
   color: white;
   margin-left: 15px;
   line-height: 0.8;
@@ -111,11 +111,6 @@ a:hover {
 #headline1 {
   font-size: 20px;
 }
-
-/*#headline2 a {
-    color: red;
-    font-size: 20px;
-  }*/
 
 #headline3 {
   font-size: 20px;
@@ -151,7 +146,7 @@ a:hover {
   margin-top: 0;
 }
 
-.string-elems .latest-news h1 {
+.latest-news h1 {
   color: #f42;
   font-size: 30px;
 }
@@ -166,22 +161,15 @@ a:hover {
   font-size: 30px;
 }
 
-.small-img-caption {
+.thumbnail-caption {
   color: #f42;
   font-size: 15px;
+  margin-top: 3px;
 }
 
 .last-section h1 {
   color: #f42;
   font-size: 30px;
-}
-
-ul {
-  color: #555;
-}
-
-ul li::marker {
-  color: #f42;
 }
 
 .old-price {
@@ -314,10 +302,6 @@ main {
   margin-left: 10px;
 }
 
-.latest-news {
-  margin-bottom: 70px;
-}
-
 .latest-fund {
   margin-bottom: 20px;
 }
@@ -358,12 +342,6 @@ main {
   margin-left: 85px;
 }
 
-li {
-  font-size: 13px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #555;
-}
-
 .card-mid {
   border-bottom: 1px solid #f42;
   height: 75px;
@@ -389,13 +367,14 @@ li {
   margin-bottom: 60px;
 }
 
-.middle-sec ul {
-  padding-left: 20px;
-  line-height: 20px;
-}
-
 .middle-sec h1 {
   margin-bottom: 15px;
+}
+
+.middle-sec ul {
+  color: #555;
+  padding-left: 20px;
+  line-height: 20px;
 }
 
 .pink-bckgrnd2 {
@@ -404,8 +383,14 @@ li {
   width: 100%;
 }
 
-.pink-bckgrnd2 p {
-  margin-top: 3px;
+ul li::marker {
+  color: #f42;
+}
+
+li {
+  font-size: 13px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #555;
 }
 
 /* footer section */
@@ -478,13 +463,14 @@ li {
   justify-content: center;
 }
 
+#tnm-logo2 {
+  margin-bottom: -20px;
+}
+
 .string-madein {
   height: 30px;
   text-align: center;
-}
-
-#tnm-logo2 {
-  margin-bottom: -20px;
+  margin-top: 20px;
 }
 
 .last-line {
@@ -700,7 +686,6 @@ li {
   }
 
   .string-madein {
-    margin-top: 20px;
     margin-left: 5px;
   }
 
@@ -794,10 +779,6 @@ li {
     margin-right: 20px;
   }
 
-  .pink-bckgrnd2 {
-    width: 100%;
-  }
-
   .latest-fund {
     display: flex;
     flex-direction: row;
@@ -820,6 +801,17 @@ li {
     display: block;
   }
 
+  .middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .middle-sec {
+    margin-right: 20px;
+    width: 31%;
+  }
+
   .middle-child {
     width: 100%;
     height: 270px;
@@ -828,14 +820,8 @@ li {
     flex-wrap: wrap;
   }
 
-  .middle-sec {
-    margin-right: 20px;
-    width: 31%;
+  .pink-bckgrnd2 {
+    width: 100%;
   }
 
-  .middle-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
