@@ -47,11 +47,11 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid #aaa;
 }
 
 .right-icons {
-  height: 50px;
-  border: 1 px solid black;
+  height: 49px;
   display: flex;
   background-color: white;
   flex-direction: row;
@@ -60,7 +60,6 @@ a:hover {
 .mag {
   margin-top: -5px;
   width: 50px;
-  height: 50px;
   margin-left: 260px;
   border: 1px solid #aaa;
 }
@@ -68,9 +67,8 @@ a:hover {
 #menu {
   background-color: white;
   margin-left: 1px;
-  margin-top: -6px;
+  margin-top: -1px;
   width: 50px;
-  height: 50px;
   border: 1px solid #aaa;
   color: #f42;
 }
@@ -78,7 +76,7 @@ a:hover {
 /* text */
 
 .internal-text1 {
-  font: sans-serif;
+  font-family: sans-serif;
   color: white;
   margin-left: 15px;
   line-height: 0.8;
@@ -162,6 +160,7 @@ a:hover {
 
 .latest h4 {
   margin-bottom: 0;
+  margin-left: 10px;
 }
 
 .middle-section h1 {
@@ -188,7 +187,7 @@ a:hover {
 /* background images */
 
 .img-1 {
-  margin-top: 0px;
+  margin-top: 0;
   width: 100%;
   height: 170px;
   background-image: url("Assets-2/covid-19.png");
@@ -311,10 +310,6 @@ main {
   margin-top: 8px;
 }
 
-.latest h4 {
-  margin-left: 10px;
-}
-
 .latest-fund {
   margin-bottom: 20px;
 }
@@ -430,10 +425,6 @@ li {
 .fab,
 .fas {
   display: flex !important;
-}
-
-.fab,
-.fas {
   justify-content: center;
   align-items: center;
   width: 40px;
