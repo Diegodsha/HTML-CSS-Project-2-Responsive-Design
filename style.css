@@ -116,6 +116,10 @@ a:hover {
   font-size: 20px;
 }
 
+.first-section {
+  margin-top: 53px;
+}
+
 .top-txt1 {
   padding-top: 50px;
 }
@@ -156,6 +160,10 @@ a:hover {
   font-size: 30px;
 }
 
+.latest h4 {
+  margin-bottom: 0;
+}
+
 .middle-section h1 {
   color: #f42;
   font-size: 30px;
@@ -186,7 +194,6 @@ a:hover {
   background-image: url("Assets-2/covid-19.png");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
 }
 
 .img-2 {
@@ -195,7 +202,6 @@ a:hover {
   background-image: url("Assets-2/ces-gadgets.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
 }
 
 .img-3 {
@@ -204,7 +210,6 @@ a:hover {
   background-image: url("Assets-2/rolls-royce.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
 }
 
 /* middle section and its images */
@@ -298,7 +303,15 @@ main {
   flex-direction: row;
 }
 
-.latest :nth-child(2) {
+.last-items :nth-child(2) {
+  margin-left: 10px;
+}
+
+.last-items p {
+  margin-top: 8px;
+}
+
+.latest h4 {
   margin-left: 10px;
 }
 
@@ -317,6 +330,8 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row;
+  font-weight: bold;
+  color: #fff;
 }
 
 .orange-bckgrnd img {
@@ -390,7 +405,7 @@ ul li::marker {
 li {
   font-size: 13px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgb(240, 235, 235);
 }
 
 /* footer section */
@@ -413,7 +428,7 @@ li {
 
 .fab,
 .fas {
-  display: flex;
+  display: flex !important;
 }
 
 .fab,
@@ -479,6 +494,10 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.last-line img {
+  margin-left: 5px;
 }
 
 /* Mobile version */
@@ -638,6 +657,11 @@ li {
     width: 248px;
   }
 
+  .latest h4 {
+    margin-top: 138px;
+    margin-left: 0%;
+  }
+
   .latest img {
     display: block;
     height: 122px;
@@ -655,15 +679,15 @@ li {
   }
 
   .latest-fund-child {
-    width: 300px;
+    width: 100%;
   }
 
   .orange-bckgrnd {
-    width: 300px;
+    width: 100%;
   }
 
   .pink-bckgrnd {
-    width: 300px;
+    width: 100%;
   }
 
   #fund-child4 {
@@ -823,5 +847,4 @@ li {
   .pink-bckgrnd2 {
     width: 100%;
   }
-
 }
