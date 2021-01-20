@@ -57,20 +57,33 @@ a:hover {
   flex-direction: row;
 }
 
-.mag {
+.mag-corrector {
   margin-top: -5px;
   width: 50px;
   margin-left: 260px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid #aaa;
+}
+
+.mag {
+  height: 30px;
+  width: 30px;
+}
+
+.menu-corrector {
+  background-color: white;
+  margin-left: 1px;
+  margin-top: -1px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 50px;
   border: 1px solid #aaa;
 }
 
 #menu {
-  background-color: white;
-  margin-left: 1px;
-  margin-top: -1px;
-  width: 50px;
-  border: 1px solid #aaa;
-  color: #f42;
+  height: 30px;
+  width: 30px;
 }
 
 /* text */
@@ -581,13 +594,24 @@ li {
     margin-left: 20px;
   }
 
-  .magi {
+  .mag-corrector {
+    margin-top: 0;
+    width: 50px;
+    margin-left: 260px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #aaa;
     margin-left: auto;
     margin-right: 10px;
     justify-content: flex-end;
     border: 1px solid #aaa;
   }
-
+  
+  .magi {
+    height: 30px;
+    width: 30px;
+  }
+  
   .img-1 {
     width: 100%;
     height: auto;
@@ -774,10 +798,6 @@ li {
       "first second"
       "first third";
   }
-
-  /* .top-txt1 {
-    padding-top: 250px;
-  } */
 
   .top-txt2 {
     padding-top: 60px;
