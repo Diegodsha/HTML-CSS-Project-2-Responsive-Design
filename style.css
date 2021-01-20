@@ -93,7 +93,8 @@ a:hover {
   color: white;
   margin-left: 15px;
   line-height: 0.8;
-  margin-bottom: 0;
+  margin-bottom: 11px;
+  margin-top: 17px;
 }
 
 .internal-text2 {
@@ -164,6 +165,11 @@ a:hover {
 .latest-news h1 {
   color: #f42;
   font-size: 30px;
+}
+
+.latest-news {
+  max-width: 1366px;
+  margin-bottom: 3%;
 }
 
 .latest-funding h1 {
@@ -292,7 +298,7 @@ a:hover {
 /* Image modifiers */
 
 header {
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 
 main {
@@ -321,6 +327,21 @@ main {
 
 .last-items p {
   margin-top: 8px;
+}
+
+.latest-funding-header {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.latest-funding-header2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-funding-header a {
+  color: #f42;
 }
 
 .latest-fund {
@@ -606,12 +627,12 @@ li {
     justify-content: flex-end;
     border: 1px solid #aaa;
   }
-  
+
   .magi {
     height: 30px;
     width: 30px;
   }
-  
+
   .img-1 {
     width: 100%;
     height: auto;
@@ -694,6 +715,20 @@ li {
     flex-direction: row;
   }
 
+  .latest-funding-header2 {
+    flex-direction: row;
+  }
+
+  .latest-funding-header2 a {
+    margin-right: 10px;
+  }
+
+  .lfh2-last {
+    border-right: 1px solid #f42;
+    border-left: 1px solid #f42;
+    padding: 0 7px 0 7px;
+  }
+
   .latest-fund-child {
     width: 100%;
   }
@@ -737,6 +772,14 @@ li {
 
 /* Desktop version */
 @media only screen and (min-width: 1200px) {
+  body {
+    margin: 0;
+  }
+
+  header {
+    width: 99.5%;
+  }
+
   #first {
     margin-left: 23px;
   }
@@ -758,6 +801,12 @@ li {
     height: auto;
     grid-area: first;
     background-size: cover;
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(239 10 31 / 72%),
+        rgb(8 8 8 / 56%)
+      ),
+      url(Assets-2/covid-19.png);
   }
 
   .img-1 img {
@@ -768,7 +817,7 @@ li {
   }
 
   .img-1 time {
-    color: #000;
+    color: #fff;
     float: right;
     padding-top: 15px;
     padding-right: 15px;
@@ -811,6 +860,12 @@ li {
     padding-top: 90px;
   }
 
+  .latest-news,
+  .latest-funding,
+  .last-section {
+    padding-left: 10%;
+  }
+
   .latest {
     margin-right: 20px;
   }
@@ -818,6 +873,16 @@ li {
   .latest-fund {
     display: flex;
     flex-direction: row;
+  }
+
+  .latest-funding-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .latest-funding-header2 {
+    height: 18px;
+    margin-left: 22.2%;
   }
 
   .latest-fund-child {
