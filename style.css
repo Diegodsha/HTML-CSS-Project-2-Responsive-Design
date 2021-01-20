@@ -394,6 +394,7 @@ main {
 
 .pink-bckgrnd2 {
   background: rgba(255, 68, 34, 0.08);
+  padding-left: 15px;
   height: 96px;
   width: 100%;
 }
