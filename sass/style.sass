@@ -1,0 +1,198 @@
+@import 'colors'
+
+a
+    text-decoration: none
+
+    &:hover
+        color: white
+
+.string-elems
+    display: flex
+    flex-direction: row
+
+    & p
+        margin-bottom: 0
+        margin-top: 0
+
+    & a
+        margin-top: 0
+
+.latest-news
+    max-width: 1366px
+    margin-bottom: 3%
+    = & h1
+        color: $red
+        font-size: 30px
+
+.latest-funding h1,
+.middle-section h1,
+.last-section h1
+    +latest-news h1
+
+.last-items
+    display: flex
+    flex-direction: row
+
+    & :nth-child(2)
+        margin-left: 10px
+
+    & p
+        margin-top: 8px
+
+.latest-funding-header
+    display: flex
+    flex-direction: column
+    align-self: flex-start
+
+    &2
+        display: flex
+        flex-direction: column
+
+    & a
+        color: $red
+
+.latest-fund
+    margin-bottom: 20px
+
+    &-child
+        width: 100%
+        margin-right: 15px
+
+.orange-bckgrnd
+    background: $red
+    height: 40px
+    width: 100%
+    display: flex
+    flex-direction: row
+    font-weight: bold
+    color: #fff
+
+    & img
+        margin-top: 10px
+        margin-bottom: -30px
+        margin-left: 10px
+
+.pink-bckgrnd
+    background: rgba(255, 68, 34, 0.08)
+    height: 45px
+    width: 100%
+    line-height: 0.1
+
+    & h3
+        margin-left: 85px
+
+    & p
+        color: gray
+        font-size: 12px
+        margin-left: 85px
+
+.card-mid
+    border-bottom: 1px solid $red
+    height: 75px
+    line-height: 1.8
+
+    &-pricetag
+        padding-top: 10px
+
+.middle-sec
+    width: 100%
+    margin-right: 15px
+    margin-bottom: 60px
+
+    & h1
+        margin-bottom: 15px
+
+    & ul
+        color: #555
+        padding-left: 20px
+        line-height: 20px
+
+.f-links-icons
+    padding-top: 30px
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    & a
+        margin-left: 10px
+        width: 40px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: $bckgrnd-social
+
+    & a:hover
+        background-color: rgb(20, 20, 20)
+
+.footer-bottom
+    height: 120px
+    background-color: black
+
+    & p
+        font-size: 13px
+        color: #aaa
+
+.last-line
+    height: 41px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+    & img
+        margin-left: 5px
+
+/* Tablet version */
+@media only screen and (min-width: 760px)
+
+    .first-nav
+        height: 30px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        background-color: black
+        top: 0
+
+        & a
+            color: rgb(141, 141, 132)
+            font-size: 15px
+            text-align: center
+            margin: 5px
+            padding-top: 5px
+            justify-content: flex-end
+
+    .lfh2-last
+        border-right: 1px solid $red
+        border-left: 1px solid $red
+        padding: 0 7px 0 7px
+
+    .last-section-metaCont
+        width: 98%
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        & h1
+            width: 100%
+/* Desktop version */
+@media only screen and (min-width: 1200px)
+
+    .img-1
+        width: 100%
+        height: auto
+        background-size: cover
+
+        & img
+            padding-top: 15px
+            padding-left: 15px
+            width: 65%
+            display: initial
+
+        & time
+            color: #fff
+            float: right
+            padding-top: 15px
+            padding-right: 15px
+            display: initial

@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-a {
+/* a {
   text-decoration: none;
 }
 
 a:hover {
   color: white;
-}
+} */
 
 .header-img a {
   color: white;
@@ -148,7 +148,7 @@ a:hover {
   padding-top: 180px;
 }
 
-.string-elems {
+/* .string-elems {
   display: flex;
   flex-direction: row;
 }
@@ -160,20 +160,20 @@ a:hover {
 
 .string-elems a {
   margin-top: 0;
-}
+} */
 
 .latest-news {
   max-width: 1366px;
   margin-bottom: 3%;
 }
 
-.latest-news h1,
+/* .latest-news h1,
 .latest-funding h1,
 .middle-section h1,
 .last-section h1 {
   color: #f42;
   font-size: 30px;
-}
+} */
 
 .lat-news h4,
 .latest-deals h4 {
@@ -307,7 +307,7 @@ main {
   margin-right: 15px;
 }
 
-.last-items {
+/* .last-items {
   display: flex;
   flex-direction: row;
 }
@@ -318,9 +318,9 @@ main {
 
 .last-items p {
   margin-top: 8px;
-}
+} */
 
-.latest-funding-header {
+/* .latest-funding-header {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -333,16 +333,16 @@ main {
 
 .latest-funding-header a {
   color: #f42;
-}
+} */
 
-.latest-fund {
+/* .latest-fund {
   margin-bottom: 20px;
 }
 
 .latest-fund-child {
   width: 100%;
   margin-right: 15px;
-}
+} */
 
 .orange-bckgrnd {
   background: #f42;
@@ -360,7 +360,7 @@ main {
   margin-left: 10px;
 }
 
-.pink-bckgrnd {
+/* .pink-bckgrnd {
   background: rgba(255, 68, 34, 0.08);
   height: 45px;
   width: 100%;
@@ -375,9 +375,9 @@ main {
   color: gray;
   font-size: 12px;
   margin-left: 85px;
-}
+} */
 
-.card-mid {
+/* .card-mid {
   border-bottom: 1px solid #f42;
   height: 75px;
   line-height: 1.8;
@@ -385,7 +385,7 @@ main {
 
 .card-mid-pricetag {
   padding-top: 10px;
-}
+} */
 
 .card-base {
   margin-bottom: 35px;
@@ -396,7 +396,7 @@ main {
   color: #aaa;
 }
 
-.middle-sec {
+/* .middle-sec {
   width: 100%;
   margin-right: 15px;
   margin-bottom: 60px;
@@ -410,7 +410,7 @@ main {
   color: #555;
   padding-left: 20px;
   line-height: 20px;
-}
+} */
 
 .pink-bckgrnd2 {
   background: rgba(255, 68, 34, 0.08);
@@ -436,7 +436,7 @@ li {
   background-color: rgb(32, 32, 32);
 }
 
-.f-links-icons {
+/* .f-links-icons {
   padding-top: 30px;
   display: flex;
   flex-direction: row;
@@ -456,7 +456,7 @@ li {
 
 .f-links-icons a:hover {
   background-color: rgb(20, 20, 20);
-}
+} */
 
 .fab,
 .fas {
@@ -478,7 +478,7 @@ li {
   justify-content: center;
 }
 
-.footer-bottom {
+/* .footer-bottom {
   height: 120px;
   background-color: black;
 }
@@ -486,7 +486,7 @@ li {
 .footer-bottom p {
   font-size: 13px;
   color: #aaa;
-}
+} */
 
 .frst-line {
   height: 35px;
@@ -506,7 +506,7 @@ li {
   margin-top: 20px;
 }
 
-.last-line {
+/* .last-line {
   height: 41px;
   display: flex;
   flex-direction: row;
@@ -516,7 +516,7 @@ li {
 
 .last-line img {
   margin-left: 5px;
-}
+} */
 
 /* Mobile version */
 @media only screen and (max-width: 760px) {
@@ -551,7 +551,7 @@ li {
     position: fixed;
   }
 
-  .first-nav {
+  /* .first-nav {
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -567,7 +567,7 @@ li {
     margin: 5px;
     padding-top: 5px;
     justify-content: flex-end;
-  }
+  } */
 
   #first {
     color: white;
@@ -837,10 +837,10 @@ li {
   }
 
   .img-1 {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     grid-area: first;
-    background-size: cover;
+    /* background-size: cover; */
     background-image: linear-gradient(
         to right bottom,
         rgb(239 10 31 / 72%),
@@ -849,7 +849,7 @@ li {
       url(Assets-2/covid-19.png);
   }
 
-  .img-1 img {
+  /* .img-1 img {
     padding-top: 15px;
     padding-left: 15px;
     width: 65%;
@@ -862,7 +862,7 @@ li {
     padding-top: 15px;
     padding-right: 15px;
     display: initial;
-  }
+  } */
 
   .img-2 {
     width: 100%;
