@@ -4,9 +4,7 @@
 
 > Microverse second project about using HTML&CSS features and applying them to make a responsive web design
 
-![screenshot](x-special/nautilus-clipboard
-copy
-file:///home/diego/Documents/Programmer/MICROVERSE/projects/HTMLcss/HTML-CSS-Project-2-Responsive-Design/Assets-2/screenshot.png)
+![screenshot](file:///home/diego/Documents/Programmer/MICROVERSE/projects/HTMLcss/HTML-CSS-Project-2-Responsive-Design/Assets-2/screenshot.png)
 
 In this project we implemented HTML tags, CSS, CSS flex-box, floats and CSS-grid to properly give position
 and style to the elements and make it look as similiar as possible to the main article page.
