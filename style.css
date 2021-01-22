@@ -2,14 +2,8 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: avalon;
-  src: url(Fonts/avalon/Avalon_Plain.ttf);
-}
-
 body {
   margin: 0;
-  font-family: avalon, sans-serif;
 }
 
 header,
@@ -740,22 +734,14 @@ li {
   .latest-deals-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-  }
-
-  .latest-news-container {
-    justify-content: center;
+    gap: 9px;
   }
 
   .lat-news,
   .latest-deals {
-    width: 21%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-  }
-
-  .lat-news {
-    width: 22%;
   }
 
   .lat-news h4 {
@@ -846,7 +832,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 5%;
   }
 
   .last-section-metaCont h1 {
@@ -1008,16 +993,16 @@ li {
   }
 
   .latest-fund-child {
-    width: 280px;
+    width: 271px;
     margin-right: 20px;
   }
 
   .orange-bckgrnd {
-    width: 280px;
+    width: 271px;
   }
 
   .pink-bckgrnd {
-    width: 280px;
+    width: 271px;
   }
 
   #fund-child4 {
@@ -1029,7 +1014,6 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     width: 96%;
-    padding-left: 5%;
   }
 
   .middle-sec {
