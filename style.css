@@ -597,6 +597,10 @@ li {
 
 /* Tablet version */
 @media only screen and (min-width: 760px) {
+  main {
+    padding-left: 30px;
+  }
+
   .mobile-nav {
     display: none;
   }
@@ -893,6 +897,10 @@ li {
 
 /* Desktop version */
 @media only screen and (min-width: 1200px) {
+  main {
+    padding-left: 35px;
+  }
+
   header {
     width: 99.5%;
   }
