@@ -118,7 +118,6 @@ a:hover {
   margin: 0;
   padding-left: 16px;
   padding-top: 15px;
-  /* height: 30px; */
 }
 
 .internal-text4 {
@@ -310,6 +309,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 15px;
 }
 
 .lat-news,
@@ -322,7 +322,6 @@ main {
   width: 76px;
   height: 76px;
   float: left;
-  margin-right: 15px;
 }
 
 .last-items {
@@ -734,7 +733,12 @@ li {
   .latest-deals-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 9px;
+    gap: 30px;
+  }
+
+  .latest-news {
+    display: flex;
+    justify-content: center;
   }
 
   .lat-news,
@@ -742,6 +746,7 @@ li {
     width: 30%;
     display: flex;
     flex-direction: column;
+    margin-right: 0;
   }
 
   .lat-news h4 {
@@ -828,7 +833,6 @@ li {
   }
 
   .last-section-metaCont {
-    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -947,18 +951,17 @@ li {
   }
 
   .latest-news-metaCont {
-    width: 99%;
+  /*  width: 99%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .latest-news h1 {
-    width: 92%;
-  }
-
   .latest-news-container {
     gap: 30px;
+  }
+
+  .latest-news h1 {
     width: 92%;
   }
 
@@ -1013,7 +1016,6 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 96%;
   }
 
   .middle-sec {
@@ -1033,9 +1035,6 @@ li {
     width: 100%;
   }
 
-  .last-section-metaCont {
-    width: 93%;
-  }
   .seeDetails p {
     width: 10%;
   }
