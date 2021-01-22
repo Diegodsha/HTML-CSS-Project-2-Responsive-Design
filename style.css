@@ -2,8 +2,19 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: avalon;
+  src: url(Fonts/avalon/Avalon_Plain.ttf);
+}
+
+@font-face {
+  font-family: avalon-bold;
+  src: url(Fonts/avalon/Avalon_Bold.ttf);
+}
+
 body {
   margin: 0;
+  font-family: avalon, sans-serif;
 }
 
 header,
@@ -19,9 +30,13 @@ a:hover {
   color: white;
 }
 
+.bold {
+  font-family: avalon-bold, sans-serif;
+}
+
 .header-img a {
-  color: white;
-  font-size: 15px;
+  font-size: 13px;
+  color: #f5f3f3;
 }
 
 .f-links-text a {
@@ -123,11 +138,12 @@ a:hover {
 .internal-text4 {
   color: white;
   margin-left: 15px;
-  line-height: 0.8;
+  line-height: 1.1;
 }
 
 .header-img p {
-  font-size: 15px;
+  font-size: 13px;
+  color: #f5f3f3;
 }
 
 .headline1 {
@@ -156,12 +172,13 @@ a:hover {
 }
 
 .top-txt4 {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 
 .string-elems {
   display: flex;
   flex-direction: row;
+  font-size: 13px;
 }
 
 .string-elems p {
@@ -241,55 +258,64 @@ a:hover {
 }
 
 .hard-fork-fig {
-  background-image: url("Assets-2/trump.jpg");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/trump.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .apps-fig {
-  background-image: url("Assets-2/androd.webp");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/androd.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .gear-fig {
-  background-image: url("Assets-2/manage-screen.jpg");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/manage-screen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .tech-fig {
-  background-image: url("Assets-2/wing-mirrors.jpeg");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/wing-mirrors.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .creative-fig {
-  background-image: url("Assets-2/global-crisis.webp");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/global-crisis.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .podium-fig {
-  background-image: url("Assets-2/open-source.webp");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/open-source.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .insights-fig {
-  background-image: url("Assets-2/design-app-ui-startup-gq-480x270.webp");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/design-app-ui-startup-gq-480x270.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .launch-fig {
-  background-image: url("Assets-2/toyota.jpg");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/toyota.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .distract-fig {
-  background-image: url("Assets-2/stellar-games.jpg");
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("Assets-2/stellar-games.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -315,6 +341,7 @@ main {
 .lat-news,
 .latest-deals {
   margin-right: 15px;
+  font-size: 19px;
 }
 
 .lat-news img,
@@ -322,11 +349,14 @@ main {
   width: 76px;
   height: 76px;
   float: left;
+  margin-right: 15px;
 }
 
 .last-items {
   display: flex;
   flex-direction: row;
+  font-size: 13px;
+  color: #484747;
 }
 
 .last-items :nth-child(2) {
@@ -456,7 +486,7 @@ li {
 
 .seeDetails p {
   color: #f42;
-  width: 17%;
+  width: 19%;
 }
 
 /* footer section */
@@ -747,6 +777,7 @@ li {
     display: flex;
     flex-direction: column;
     margin-right: 0;
+    font-size: 15px;
   }
 
   .lat-news h4 {
@@ -951,7 +982,7 @@ li {
   }
 
   .latest-news-metaCont {
-  /*  width: 99%;*/
+    /*  width: 99%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
