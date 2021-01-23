@@ -27,7 +27,6 @@ Also we worked with media queries to make it RESPONSIVE
 - GitHub: [@githubhandle](https://github.com/German-Cobian)
 - Twitter: [@twitterhandle](https://twitter.com/GermanCobian3)
 
-
 👤 **Diego Hernández**
 
 - GitHub: [@githubhandle](https://github.com/Diegodsha)
